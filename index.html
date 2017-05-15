@@ -1,9 +1,3 @@
-<?php
-if($_POST["message"]) {
-    mail("alicia.savelly@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
-}
-?>
-
 <!DOCTYPE HTML>
 <!--
 	Dimension by HTML5 UP
@@ -18,6 +12,12 @@ if($_POST["message"]) {
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<script type="text/javascript">
+			function removeHidden() {
+				$("div").removeClass("hidden");
+			}
+		</script>
 	</head>
 	<body>
 
@@ -76,6 +76,9 @@ if($_POST["message"]) {
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
+								<div class="hidden not-hidden">
+									Thank you for your message! Expect a reply from alicia.savelly@gmail.com.
+								</div>
 								<form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbxEsMwuWZMSWydleA9EOE9VB9UcbD3E3CMNChWUzLSffZsBCYI/exec">
 									<div class="field half first">
 										<label for="name">Name</label>
@@ -90,7 +93,7 @@ if($_POST["message"]) {
 										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input onclick="removeHidden()" type="submit" value="Send Message" class="special" /></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>

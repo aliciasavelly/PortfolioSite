@@ -1592,3 +1592,11 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+		.not-hidden {
+			padding-bottom: 30px;
+		}
+
+		.hidden {
+			display: none;
+		}
