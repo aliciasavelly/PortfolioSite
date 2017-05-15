@@ -658,14 +658,19 @@
 
 		.image.main {
 			display: block;
-			margin: 0 2.5rem 1.5rem 0;
-			width: 40%;
-			float: left;
+			margin: 2.5rem 0;
+			width: 100%;
 		}
 
 			.image.main img {
 				width: 100%;
 			}
+
+		#reduce-height {
+			width: 40%;
+			margin: 0 2.5rem 1.5rem 0;
+			float: left;
+		}
 
 		@media screen and (max-width: 736px) {
 
