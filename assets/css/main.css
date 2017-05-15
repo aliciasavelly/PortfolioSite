@@ -658,8 +658,9 @@
 
 		.image.main {
 			display: block;
-			margin: 2.5rem 0;
+			margin: 0 2.5rem 1.5rem 0;
 			width: 40%;
+			float: left;
 		}
 
 			.image.main img {
