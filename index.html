@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+    mail("alicia.savelly@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
 <!DOCTYPE HTML>
 <!--
 	Dimension by HTML5 UP
@@ -70,7 +76,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
+								<form method="post" action="https://script.google.com/macros/s/AKfycbxEsMwuWZMSWydleA9EOE9VB9UcbD3E3CMNChWUzLSffZsBCYI/exec">
 									<div class="field half first">
 										<label for="name">Name</label>
 										<input type="text" name="name" id="name" />
@@ -355,6 +361,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 	</body>
 </html>
