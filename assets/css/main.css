@@ -608,7 +608,8 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
+			/*background-image: url("../../images/overlay.png");*/
+			/*might want to remove this*/
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
