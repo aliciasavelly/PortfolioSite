@@ -178,6 +178,11 @@
 			margin: 0 0 2rem 0;
 		}
 
+		#no-bottom-padding {
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
@@ -1610,5 +1615,18 @@
 
 		#icon {
 			font-size: 100px;
+			line-height: 1.5;
 			width: 100px;
+			margin: 0 10px 0 10px;
+		}
+
+		.skills-section {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.redux-div {
+			display: flex;
+			align-items: center;
 		}
