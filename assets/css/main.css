@@ -1652,3 +1652,29 @@
 			margin: 0;
 			width: 100px;
 		}
+
+		.p {
+			margin: 10px;
+		}
+
+		.no-underline {
+			border-bottom-color: transparent;
+		}
+
+		.fa {
+			font-size: 30px;
+		}
+
+		button {
+			text-align: center;
+			vertical-align: middle;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			align-content: center;
+			align-items: center;
+		}
+
+		.in-button {
+			margin: 0;
+		}
