@@ -1608,10 +1608,6 @@
 			display: none;
 		}
 
-		/*.devicon-ruby-plain-wordmark {*/
-			/*max-width: 2em;*/
-		/*}*/
-
-		.icon {
-			height: 70px;
+		#icon {
+			font-size: 100px;
 		}
