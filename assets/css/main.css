@@ -1671,8 +1671,15 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			align-items: center;
+			margin: 0 10px 0 10px;
+			width: 132px;
 		}
 
 		.in-button {
 			margin: 0;
+		}
+
+		.buttons-section {
+			display: flex;
+			justify-content: center;
 		}
