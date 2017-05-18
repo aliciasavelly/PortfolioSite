@@ -1629,7 +1629,7 @@
 		.redux-div {
 			width: 100px;
 			display: flex;
-			align-items: center;
+			/*align-items: center;*/
 			flex-wrap: wrap;
 			justify-content: center;
 			/*align-self: center;
@@ -1642,5 +1642,13 @@
 			font-size: 24px;
 			font-weight: bold;
 			position: absolute;
-			top: 108px;
+			top: 98px;
+		}
+
+		.redux-img, #redux-icon {
+			position: absolute;
+			top: 20px;
+			left: 0;
+			margin: 0;
+			width: 100px;
 		}
