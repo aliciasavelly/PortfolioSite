@@ -1627,6 +1627,20 @@
 		}
 
 		.redux-div {
+			width: 100px;
 			display: flex;
 			align-items: center;
+			flex-wrap: wrap;
+			justify-content: center;
+			/*align-self: center;
+			align-content: center;*/
+			position: relative;
+		}
+
+		.purple-redux-tag {
+			color: #784EBB;
+			font-size: 24px;
+			font-weight: bold;
+			position: absolute;
+			top: 108px;
 		}
