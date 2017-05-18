@@ -1607,3 +1607,11 @@
 		.hidden {
 			display: none;
 		}
+
+		/*.devicon-ruby-plain-wordmark {*/
+			/*max-width: 2em;*/
+		/*}*/
+
+		.icon {
+			height: 70px;
+		}
