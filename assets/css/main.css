@@ -1690,3 +1690,21 @@
 			background-color: rgba(0, 0, 0, 0);
 			transition: background-color 1s;
 		}
+
+		.edu-section {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.edu-p {
+			margin: 0;
+			padding: 0;
+		}
+
+		.give-padding {
+			padding-bottom: 40px;
+		}
+
+		.give-padding h3 {
+			margin-bottom: 8px;
+		}
