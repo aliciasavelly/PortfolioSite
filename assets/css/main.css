@@ -626,6 +626,7 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
+			transition: background-color 1s;
 		}
 
 		.image img {
@@ -1687,4 +1688,5 @@
 
 		.image:hover:before {
 			background-color: rgba(0, 0, 0, 0) !important;
+			transition: background-color 1s;
 		}
