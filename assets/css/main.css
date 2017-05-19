@@ -1708,3 +1708,13 @@
 		.give-padding h3 {
 			margin-bottom: 8px;
 		}
+
+		.give-padding li {
+			width: 100%;
+		}
+
+		.give-padding ul {
+			width: 550px;
+			padding-left: 20px;
+			margin: 0;
+		}
