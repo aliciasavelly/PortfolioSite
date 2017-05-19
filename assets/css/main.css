@@ -1615,6 +1615,8 @@
 			display: none;
 		}
 
+/* Later Additions */
+
 		#icon {
 			font-size: 100px;
 			line-height: 1.5;
@@ -1631,11 +1633,8 @@
 		.redux-div {
 			width: 100px;
 			display: flex;
-			/*align-items: center;*/
 			flex-wrap: wrap;
 			justify-content: center;
-			/*align-self: center;
-			align-content: center;*/
 			position: relative;
 		}
 
@@ -1688,6 +1687,6 @@
 		}
 
 		.image:hover:before {
-			background-color: rgba(0, 0, 0, 0) !important;
+			background-color: rgba(0, 0, 0, 0);
 			transition: background-color 1s;
 		}
