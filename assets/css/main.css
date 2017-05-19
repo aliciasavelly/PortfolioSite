@@ -615,8 +615,8 @@
 			pointer-events: none;
 			/*background-image: url("../../images/overlay.png");*/
 			/* TODO might want to remove this*/
-			/*background-color: rgba(0, 0, 0, 0);*/
 			background-color: rgba(19, 21, 25, 0.5);
+			/*background-color: rgba(0, 0, 0, 0);*/
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1685,7 +1685,7 @@
 			justify-content: center;
 		}
 
-		#no-background-color:hover {
+		.image:hover:before {
 			/*width: 300px;
 			border-color: blue;*/
 			/*border-width: 10px;*/
