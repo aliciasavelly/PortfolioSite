@@ -614,7 +614,8 @@
 			-ms-pointer-events: none;
 			pointer-events: none;
 			/*background-image: url("../../images/overlay.png");*/
-			/*might want to remove this*/
+			/* TODO might want to remove this*/
+			/*background-color: rgba(0, 0, 0, 0);*/
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -1683,3 +1684,15 @@
 			display: flex;
 			justify-content: center;
 		}
+
+		#no-background-color:hover {
+			/*width: 300px;
+			border-color: blue;*/
+			/*border-width: 10px;*/
+			background-color: rgba(0, 0, 0, 0) !important;
+		}
+
+		/*img:hover {
+			width: 30px;
+
+		}*/
