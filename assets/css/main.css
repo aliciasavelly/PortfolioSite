@@ -1686,13 +1686,5 @@
 		}
 
 		.image:hover:before {
-			/*width: 300px;
-			border-color: blue;*/
-			/*border-width: 10px;*/
 			background-color: rgba(0, 0, 0, 0) !important;
 		}
-
-		/*img:hover {
-			width: 30px;
-
-		}*/
