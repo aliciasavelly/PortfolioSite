@@ -1723,3 +1723,7 @@
 		.italic {
 			font-style: italic;
 		}
+
+		.resume-button {
+			width: 200px;
+		}
