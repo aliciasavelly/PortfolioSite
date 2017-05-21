@@ -1732,6 +1732,10 @@
 			margin: auto !important;
 		}
 
+		#main #skills {
+			width: 700px;
+		}
+
 		/*.remove-hover:before {
 			background-color: rgba(19, 21, 25, 0.5);
 		}
