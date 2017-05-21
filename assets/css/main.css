@@ -752,10 +752,10 @@
 					border-radius: 100%;
 					box-shadow: inset 0 0 0 1px #ffffff;
 					display: inline-block;
-					height: 2.25rem;
+					height: 3.25rem;
 					line-height: 2.25rem;
 					text-align: center;
-					width: 2.25rem;
+					width: 3.25rem;
 				}
 
 					ul.icons li a:hover {
@@ -1773,6 +1773,6 @@
 		}
 
 		.fa {
-			font-size: 19px;
-			margin: 0;
+			font-size: 28px;
+			margin: 12px 0 0 0;
 		}
