@@ -1776,3 +1776,8 @@
 			font-size: 28px;
 			margin: 12px 0 0 0;
 		}
+
+		.top-section {
+			display: flex;
+			justify-content: space-between;
+		}
