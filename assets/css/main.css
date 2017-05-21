@@ -1731,3 +1731,15 @@
 		.centered {
 			margin: auto !important;
 		}
+
+		/*.remove-hover:before {
+			background-color: rgba(19, 21, 25, 0.5);
+		}
+
+		.remove-hover:hover:before {
+			background-color: rgba(0, 0, 0, 0);
+		}
+
+		#no-background-color {
+			cursor: pointer;
+		}*/

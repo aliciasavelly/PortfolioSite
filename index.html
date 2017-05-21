@@ -21,6 +21,16 @@
 				$("div").removeClass("hidden");
 			}
 		</script>
+
+		<!-- <script type="text/javascript">
+			function removeHover() {
+				if (!document.getElementById("no-background-color").className.includes("remove-hover")) {
+				}
+				document.getElementById("no-background-color").className = document.getElementById("no-background-color").className + " remove-hover";
+				window.open("https://tonealyzer.herokuapp.com/");
+				// console.log(document.getElementById("no-background-color").className);
+			}
+		</script> -->
 	</head>
 	<body>
 
@@ -66,7 +76,11 @@
 							<article id="projects">
 								<h2 class="major">Projects</h2>
 
-								<span id="no-background-color" class="image main"><a href="https://tonealyzer.herokuapp.com" target="_blank"><img src="images/tonealyzer.png" alt="Tonealyzer" /></a></span>
+								<span id="no-background-color" class="image main"> <!-- onclick="removeHover()" -->
+									<a href="https://tonealyzer.herokuapp.com/" target="_blank">
+										<img src="images/tonealyzer.png" alt="Tonealyzer"/>
+									</a>
+								</span>
 								<p class="p">Tonealyzer is a full-stack web application where users can get tone analysis for writings they submit. They can also see how their writing tone has changed over time. The IBM Watson Tone Analyzer API provides the tone information for users' writing, from overall tone of their submissions, to specific analysis for each sentence.</p>
 								<p class="p">OmniAuth was used to manage user login and security. Users can log in with Google, Facebook, LinkedIn, or basic username and password.</p>
 								<p class="p">The D3.js library was used to create graphs where users can easily see the analysis of their writings over time.</p>
