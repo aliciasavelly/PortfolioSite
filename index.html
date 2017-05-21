@@ -17,20 +17,9 @@
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
 		<script type="text/javascript">
-			function removeHidden() {
-				$("div").removeClass("hidden");
-			}
+			function removeHidden() { $("div").removeClass("hidden"); }
 		</script>
 
-		<!-- <script type="text/javascript">
-			function removeHover() {
-				if (!document.getElementById("no-background-color").className.includes("remove-hover")) {
-				}
-				document.getElementById("no-background-color").className = document.getElementById("no-background-color").className + " remove-hover";
-				window.open("https://tonealyzer.herokuapp.com/");
-				// console.log(document.getElementById("no-background-color").className);
-			}
-		</script> -->
 	</head>
 	<body>
 
@@ -182,7 +171,7 @@
 									<li><a href="https://www.facebook.com/alicia.savelly" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 								</ul>
 
-								<div class="hidden not-hidden">
+								<div class="hidden not-hidden" id="thankyou_message">
 									Thank you for your message! Expect a reply from alicia.savelly@gmail.com.
 								</div>
 
@@ -206,7 +195,7 @@
 								</form>
 
 							</article>
-							
+
 					</div>
 
 				<!-- Footer -->
