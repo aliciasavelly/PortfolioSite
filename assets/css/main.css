@@ -62,7 +62,7 @@
 		width: device-width;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 755px) {
 
 		html, body {
 			min-width: 320px;
@@ -103,7 +103,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 820px) {
 
 			html {
 				font-size: 11pt;
@@ -211,7 +211,7 @@
 		font-size: 0.6rem;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 820px) {
 
 		h1 {
 			font-size: 1.75rem;
@@ -309,7 +309,7 @@
 			margin: 1.875rem 0 0 0 !important;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 820px) {
 
 			form .field {
 				margin: 0 0 1.125rem 0;
@@ -329,7 +329,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 755px) {
 
 			form .field.half {
 				width: 100%;
@@ -680,7 +680,7 @@
 			float: left;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 820px) {
 
 			.image.main {
 				margin: 2rem 0 1rem 0;
@@ -688,7 +688,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 755px) {
 
 			.image.main {
 				margin: 1.5rem 0;
@@ -833,7 +833,7 @@
 						padding: 0 0 0 0.5rem;
 					}
 
-			@media screen and (max-width: 480px) {
+			@media screen and (max-width: 755px) {
 
 				ul.actions {
 					margin: 0 0 2rem 0;
@@ -1166,7 +1166,8 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+/* TODO */
+		@media screen and (max-width: 850px) {
 
 			#wrapper {
 				padding: 2rem 1rem;
@@ -1174,7 +1175,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 755px) {
 
 			#wrapper {
 				padding: 1rem;
@@ -1376,7 +1377,8 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+/* TODO */
+		@media screen and (max-width: 850px) {
 
 			#header > * {
 				margin-top: 2rem;
@@ -1407,7 +1409,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 755px) {
 
 			#header {
 				padding: 1.5rem 0;
@@ -1546,7 +1548,8 @@
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
-		@media screen and (max-width: 736px) {
+/* TODO */
+		@media screen and (max-width: 800px) {
 
 			#main article {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
@@ -1562,7 +1565,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 755px) {
 
 			#main article {
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
