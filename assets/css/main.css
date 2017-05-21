@@ -1781,3 +1781,28 @@
 			display: flex;
 			justify-content: space-between;
 		}
+
+		.give-space {
+			white-space: pre;
+		}
+
+		#resume .top-section p {
+			margin-bottom: 7px;
+		}
+
+		#resume .edu-section p {
+			margin-bottom: 7px;
+		}
+
+		#resume .first-edu {
+			padding-bottom: 20px;
+		}
+
+		.resume-h3 {
+			display: flex;
+
+		}
+
+		.resume-h3 hr {
+			border-top: 1px solid #ccc;
+		}
