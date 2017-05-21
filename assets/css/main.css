@@ -1771,3 +1771,8 @@
 		.bigger-header {
 			font-size: 1.25rem;
 		}
+
+		.fa {
+			font-size: 19px;
+			margin: 0;
+		}
