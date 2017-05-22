@@ -1835,3 +1835,14 @@
 			border-bottom-color: transparent;
 			transition: 0.5s;
 		}
+
+		.contact-info {
+			list-style: none;
+			padding-left: 0;
+		}
+
+		.contacts-section {
+			display: flex;
+			justify-content: space-between;
+			/*text-align: right;*/
+		}
