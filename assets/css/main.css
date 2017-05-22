@@ -1800,9 +1800,28 @@
 
 		.resume-h3 {
 			display: flex;
+			align-items: center;
+		}
 
+		.projects-h3 h3 {
+			width: 26%;
+		}
+
+		.programming-skills-h3 h3 {
+			width: 72%;
+		}
+
+		.education-h3 h3 {
+			width: 79%;
+		}
+
+		.experience-h3 h3 {
+			width: 106%;
 		}
 
 		.resume-h3 hr {
-			border-top: 1px solid #ccc;
+			border: 1px solid #ffffff;
+			height: 1px;
+			width: 100%;
+			margin: 0 0 1rem 0;
 		}
