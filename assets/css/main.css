@@ -1825,3 +1825,13 @@
 			width: 100%;
 			margin: 0 0 1rem 0;
 		}
+
+		#resume a {
+			border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+			transition: 1s;
+		}
+
+		#resume a:hover {
+			border-bottom-color: transparent;
+			transition: 0.5s;
+		}
