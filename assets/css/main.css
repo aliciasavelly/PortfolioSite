@@ -1717,7 +1717,7 @@
 		}
 
 		.give-padding ul {
-			width: 550px;
+			width: 100%;
 			padding-left: 20px;
 			margin: 0;
 		}
@@ -1844,13 +1844,24 @@
 		.contacts-section {
 			display: flex;
 			justify-content: space-between;
-			/*text-align: right;*/
 		}
 
-		@media screen and (max-width: 400px) {
+		@media screen and (max-width: 465px) {
 
 			#reduce-height {
 				width: 100%;
+			}
+
+			.edu-section {
+				display: block;
+			}
+
+			.edu-section h3 {
+				margin-bottom: 2px;
+			}
+
+			.edu-p {
+				margin-bottom: 10px;
 			}
 
 		}
