@@ -1783,7 +1783,7 @@
 		}
 
 		.give-space {
-			white-space: pre;
+			white-space: pre-wrap;
 		}
 
 		#resume .top-section p {
@@ -1807,6 +1807,10 @@
 			width: 26%;
 		}
 
+		.projects-h3 {
+			justify-content: space-between;
+		}
+
 		.programming-skills-h3 h3 {
 			width: 72%;
 		}
@@ -1824,6 +1828,10 @@
 			height: 1px;
 			width: 100%;
 			margin: 0 0 1rem 0;
+		}
+
+		.resume-h3 h3 {
+			white-space: nowrap;
 		}
 
 		#resume a {
@@ -1868,4 +1876,143 @@
 
 		.redux-icon {
 			height: 150px;
+		}
+
+		@media screen and (max-width: 600px) {
+
+			.projects-h3 hr {
+				width: 100%;
+			}
+
+			.programming-skills-h3 hr {
+				width: 100%;
+			}
+
+			.education-h3 hr {
+				width: 100%;
+			}
+
+			.experience-h3 hr {
+				width: 100%;
+			}
+
+			/*.resume-h3 hr {
+				border: 1px solid #ffffff;
+				height: 1px;
+				width: 100%;
+				margin: 0 0 1rem 0;
+			}*/
+
+		}
+
+		@media screen and (max-width: 578px) {
+
+			.projects-h3 hr {
+				width: 100%;
+			}
+
+			.programming-skills-h3 hr {
+				width: 95%;
+			}
+
+			.education-h3 hr {
+				width: 95%;
+			}
+
+			.experience-h3 hr {
+				width: 92%;
+			}
+
+			/*.resume-h3 hr {
+				border: 1px solid #ffffff;
+				height: 1px;
+				width: 100%;
+				margin: 0 0 1rem 0;
+			}*/
+
+		}
+
+		@media screen and (max-width: 560px) {
+
+			.projects-h3 hr {
+				width: 84%;
+			}
+
+			.programming-skills-h3 hr {
+				width: 80%;
+			}
+
+			.education-h3 hr {
+				width: 80%;
+			}
+
+			.experience-h3 hr {
+				width: 78%;
+			}
+
+			/*.resume-h3 hr {
+				border: 1px solid #ffffff;
+				height: 1px;
+				width: 100%;
+				margin: 0 0 1rem 0;
+			}*/
+
+		}
+
+		@media screen and (max-width: 545px) {
+			.projects-section .top-section {
+				display: block;
+			}
+		}
+
+		@media screen and (max-width: 520px) {
+
+			.projects-h3 hr {
+				width: 74%;
+			}
+
+			.programming-skills-h3 hr {
+				width: 60%;
+			}
+
+			.education-h3 hr {
+				width: 60%;
+			}
+
+			.experience-h3 hr {
+				width: 52%;
+			}
+
+		}
+
+		@media screen and (max-width: 455px) {
+
+			.projects-h3 hr {
+				width: 67%;
+			}
+
+			.programming-skills-h3 hr {
+				width: 42%;
+			}
+
+			.education-h3 hr {
+				width: 42%;
+			}
+
+			.experience-h3 hr {
+				width: 35%;
+			}
+
+			.professional {
+				display: block;
+			}
+
+		}
+
+		@media screen and (max-width: 422px) {
+
+			#resume hr {
+				display: none;
+			}
+
 		}
