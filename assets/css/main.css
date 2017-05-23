@@ -737,6 +737,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			display: flex;
 		}
 
 			ul.icons li {
@@ -744,9 +745,9 @@
 				padding: 0 0.75em 0 0;
 			}
 
-				ul.icons li:last-child {
+				/*ul.icons li:last-child {
 					padding-right: 0;
-				}
+				}*/
 
 				ul.icons li a {
 					border-radius: 100%;
@@ -1939,9 +1940,19 @@
 		}
 
 		@media screen and (max-width: 545px) {
+
 			.projects-section .top-section {
 				display: block;
 			}
+
+			ul.icons {
+				display: block;
+			}
+
+			ul.icons li {
+				padding: 0 0.75em 0.75em 0;
+			}
+
 		}
 
 		@media screen and (max-width: 520px) {
