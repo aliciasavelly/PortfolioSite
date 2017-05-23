@@ -1896,13 +1896,6 @@
 				width: 100%;
 			}
 
-			/*.resume-h3 hr {
-				border: 1px solid #ffffff;
-				height: 1px;
-				width: 100%;
-				margin: 0 0 1rem 0;
-			}*/
-
 		}
 
 		@media screen and (max-width: 578px) {
@@ -1923,13 +1916,6 @@
 				width: 92%;
 			}
 
-			/*.resume-h3 hr {
-				border: 1px solid #ffffff;
-				height: 1px;
-				width: 100%;
-				margin: 0 0 1rem 0;
-			}*/
-
 		}
 
 		@media screen and (max-width: 560px) {
@@ -1949,13 +1935,6 @@
 			.experience-h3 hr {
 				width: 78%;
 			}
-
-			/*.resume-h3 hr {
-				border: 1px solid #ffffff;
-				height: 1px;
-				width: 100%;
-				margin: 0 0 1rem 0;
-			}*/
 
 		}
 
