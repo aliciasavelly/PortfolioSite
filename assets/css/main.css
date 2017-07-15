@@ -1856,7 +1856,6 @@
 		}
 
 		@media screen and (max-width: 465px) {
-
 			#reduce-height {
 				width: 100%;
 			}
@@ -1873,6 +1872,9 @@
 				margin-bottom: 10px;
 			}
 
+			.resume-button {
+				margin: 20px auto;
+			}
 		}
 
 		.redux-icon {
